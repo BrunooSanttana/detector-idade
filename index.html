@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p> Ano de Nascimento:
+                <input type="number" name='txtano' id='txtano' min='1897' max='2022'>
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name='radsex' id='mas' checked>
+                <label for='mas'>Masculino</label>
+                <input type='radio' name='radsex' id='fem'>
+                <label for='fem'>Feminino</label>
+            </p>
+            <p>
+                <input type="button" value='verificar idade' onclick="verificaridade()">
+            </p>
+
+
+
+        </div>
+        <div id='resultado'>
+            <p>
+                Preencha os dados acima para ver a idade
+            </p>
+
+    </section>
+    <footer>
+        <p> &copy;Bruno Santana</p>
+
+    </footer>
+    <script src="./src/script.js"></script>
+
+</body>
+
+</html>
