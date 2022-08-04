@@ -15,7 +15,7 @@ function verificaridade() {
             genero = 'Homem'
             if (idade >= 0 && idade < 10) {
                 //criança
-                img.setAttribute('src', 'meninocriança.jpg')
+                img.setAttribute('src','meninocriança.jpg') 
             } else if (idade < 20) {
                 //adolecente
                 img.setAttribute('src', 'adolecente.png')
